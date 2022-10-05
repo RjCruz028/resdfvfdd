@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<link rel="stylesheet" type="text/css" href="calculatestyle.css">
+<meta charset=utf-8/>
+<title>Calculate</title>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="timeline.html">JavaScript and More<i class="fa-solid fa-chevron-down"></i></a>
+            <ul class="dropdown">
+                <li><a href="bert.html">String Concatenation</a></li>
+                <li><a href="basicmath.html">Basic Math</a></li>
+                <li><a href="calulate.html">Basic Math 2</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+                
+          
+      </ul></li>
+
+    <h1>Addition</h1>
+
+    <p><input type="text" id="num1"> + <input type="text" id="num2">  = <button onclick="Calculate()">SEE ANSWER</button> <p id="answer"></p></p> 
+    <p><input type="text" id="add2"> + <input type="text" id="add3">  = <button onclick="Calculate2()">SEE ANSWER</button> <p id="answer2"></p></p> 
+    <p><input type="text" id="add4"> + <input type="text" id="add5">  = <button onclick="Calculate3()">SEE ANSWER</button> <p id="answer3"></p></p>
+    <p><input type="text" id="add6"> + <input type="text" id="add7">  = <button onclick="Calculate4()">SEE ANSWER</button> <p id="answer4"></p></p>
+    <p><input type="text" id="add8"> + <input type="text" id="add9">  = <button onclick="Calculate5()">SEE ANSWER</button> <p id="answer5"></p></p> 
+    <br>
+    <br>
+    <h2> Subtraction</h2>
+    <p><input type="text" id="sub"> - <input type="text" id="sub1">  = <button onclick="Calculate6()">SEE ANSWER</button> <p id="answer6"></p></p> 
+    <p><input type="text" id="sub2"> - <input type="text" id="sub3">  = <button onclick="Calculate7()">SEE ANSWER</button> <p id="answer7"></p></p> 
+    <p><input type="text" id="sub4"> - <input type="text" id="sub5">  = <button onclick="Calculate8()">SEE ANSWER</button> <p id="answer8"></p></p> 
+    <p><input type="text" id="sub6"> - <input type="text" id="sub7">  = <button onclick="Calculate9()">SEE ANSWER</button> <p id="answer9"></p></p> 
+    <p><input type="text" id="sub8"> - <input type="text" id="sub9">  = <button onclick="Calculate10()">SEE ANSWER</button> <p id="answer10"></p></p> 
+    <br>
+    <br>
+    <h3> Multiplication</h3>
+    <p><input type="text" id="mul"> X <input type="text" id="mul1">  = <button onclick="Calculate11()">SEE ANSWER</button> <p id="answer11"></p></p> 
+    <p><input type="text" id="mul2"> X <input type="text" id="mul3">  = <button onclick="Calculate12()">SEE ANSWER</button> <p id="answer12"></p></p> 
+    <p><input type="text" id="mul4"> X <input type="text" id="mul5">  = <button onclick="Calculate13()">SEE ANSWER</button> <p id="answer13"></p></p> 
+    <p><input type="text" id="mul6"> X <input type="text" id="mul7">  = <button onclick="Calculate14()">SEE ANSWER</button> <p id="answer14"></p></p> 
+    <p><input type="text" id="mul8"> X <input type="text" id="mul9">  = <button onclick="Calculate15()">SEE ANSWER</button> <p id="answer15"></p></p> 
+    <br>
+    <br>
+    <h4> Division </h4>
+    <p><input type="text" id="div"> / <input type="text" id="div1">  = <button onclick="Calculate16()">SEE ANSWER</button> <p id="answer16"></p></p> 
+    <p><input type="text" id="div2"> / <input type="text" id="div3">  = <button onclick="Calculate17()">SEE ANSWER</button> <p id="answer17"></p></p> 
+    <p><input type="text" id="div4"> / <input type="text" id="div5">  = <button onclick="Calculate18()">SEE ANSWER</button> <p id="answer18"></p></p> 
+    <p><input type="text" id="div6"> / <input type="text" id="div7">  = <button onclick="Calculate19()">SEE ANSWER</button> <p id="answer19"></p></p> 
+    <p><input type="text" id="div8"> / <input type="text" id="div9">  = <button onclick="Calculate20()">SEE ANSWER</button> <p id="answer20"></p></p> 
+    <script>
+
+        function Calculate(){
+
+            var number1 = document.getElementById("num1").value;
+
+            var number2 = document.getElementById("num2").value;
+
+            var result = parseFloat(number1) + parseFloat(number2);
+
+            document.getElementById("answer").innerHTML = "=" +  "  " + result;
+
+        }
+    </script>
+    <script>
+          function Calculate2(){
+
+var add2 = document.getElementById("add2").value;
+
+var add3 = document.getElementById("add3").value;
+
+var result = parseFloat(add2) + parseFloat(add3);
+
+document.getElementById("answer2").innerHTML = "=" +  "  " + result;
+          }
+
+    </script>
+     <script>
+        function Calculate4(){
+
+var add6 = document.getElementById("add6").value;
+
+var add7 = document.getElementById("add7").value;
+
+var result = parseFloat(add6) + parseFloat(add7);
+
+document.getElementById("answer4").innerHTML = "=" +  "  " + result;
+        }
+
+  </script>
+  <script>
+    function Calculate5(){
+
+var add8 = document.getElementById("add8").value;
+
+var add9 = document.getElementById("add9").value;
+
+var result = parseFloat(add8) + parseFloat(add9);
+
+document.getElementById("answer5").innerHTML = "=" +  "  " + result;
+    }
+
+</script>
+<br>
+<br>
+<script>
+    function Calculate6(){
+
+var sub = document.getElementById("sub").value;
+
+var sub1 = document.getElementById("sub1").value;
+
+var result = parseFloat(sub) - parseFloat(sub1);
+
+document.getElementById("answer6").innerHTML = "=" +  "  " + result;
+    }
+</script>
+<script>
+    function Calculate7(){
+
+var sub2 = document.getElementById("sub2").value;
+
+var sub3 = document.getElementById("sub3").value;
+
+var result = parseFloat(sub2) - parseFloat(sub3);
+
+document.getElementById("answer7").innerHTML = "=" +  "  " + result;
+    }
+</script>
+<script>
+    function Calculate8(){
+
+var sub4 = document.getElementById("sub4").value;
+
+var sub5 = document.getElementById("sub5").value;
+
+var result = parseFloat(sub4) - parseFloat(sub5);
+
+document.getElementById("answer8").innerHTML = "=" +  "  " + result;
+    }
+</script>
+<script>
+    function Calculate9(){
+
+var sub6 = document.getElementById("sub6").value;
+
+var sub7 = document.getElementById("sub7").value;
+
+var result = parseFloat(sub6) - parseFloat(sub7);
+
+document.getElementById("answer9").innerHTML = "=" +  "  " + result;
+    }
+</script>
+<script>
+    function Calculate10(){
+
+var sub8 = document.getElementById("sub8").value;
+
+var sub9 = document.getElementById("sub9").value;
+
+var result = parseFloat(sub8) - parseFloat(sub9);
+
+document.getElementById("answer10").innerHTML = "=" +  "  " + result;
+    }
+</script>
+<script>
+    function Calculate11(){
+
+var mul = document.getElementById("mul").value;
+
+var mul1 = document.getElementById("mul1").value;
+
+var result = parseFloat(mul) * parseFloat(mul1);
+
+document.getElementById("answer11").innerHTML = "=" +  "  " + result;
+    }
+</script>
+<script>
+    function Calculate12(){
+
+var mul2 = document.getElementById("mul2").value;
+
+var mul3 = document.getElementById("mul3").value;
+
+var result = parseFloat(mul2) * parseFloat(mul3);
+
+document.getElementById("answer12").innerHTML = "=" +  "  " + result;
+    }
+</script>
+<script>
+    function Calculate13(){
+
+var mul4 = document.getElementById("mul4").value;
+
+var mul5 = document.getElementById("mul5").value;
+
+var result = parseFloat(mul4) * parseFloat(mul5);
+
+document.getElementById("answer13").innerHTML = "=" +  "  " + result;
+    }
+</script>
+<script>
+    function Calculate14(){
+
+var mul6 = document.getElementById("mul6").value;
+
+var mul7 = document.getElementById("mul7").value;
+
+var result = parseFloat(mul6) * parseFloat(mul7);
+
+document.getElementById("answer14").innerHTML = "=" +  "  " + result;
+    }
+</script>
+<script>
+    function Calculate15(){
+
+var mul8 = document.getElementById("mul8").value;
+
+var mul9 = document.getElementById("mul9").value;
+
+var result = parseFloat(mul8) * parseFloat(mul9);
+
+document.getElementById("answer15").innerHTML = "=" +  "  " + result;
+    }
+</script>
+<script>
+    function Calculate16(){
+
+var div = document.getElementById("div").value;
+
+var div1 = document.getElementById("div1").value;
+
+var result = parseFloat(div) / parseFloat(div1);
+
+document.getElementById("answer16").innerHTML = "=" +  "  " + result;
+    }
+</script>
+<script>
+    function Calculate18(){
+
+var div4 = document.getElementById("div4").value;
+
+var div5 = document.getElementById("div5").value;
+
+var result = parseFloat(div4) / parseFloat(div5);
+
+document.getElementById("answer18").innerHTML = "=" +  "  " + result;
+    }
+</script>
+<script>
+    function Calculate19(){
+
+var div6 = document.getElementById("div6").value;
+
+var div7 = document.getElementById("div7").value;
+
+var result = parseFloat(div6) / parseFloat(div7);
+
+document.getElementById("answer19").innerHTML = "=" +  "  " + result;
+    }
+</script>
+<script>
+    function Calculate20(){
+
+var div8 = document.getElementById("div8").value;
+
+var div9 = document.getElementById("div9").value;
+
+var result = parseFloat(div8) / parseFloat(div9);
+
+document.getElementById("answer20").innerHTML = "=" +  "  " + result;
+    }
+</script>
+</body>
+
+</html>
